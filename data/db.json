@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "practive coding"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "AI"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "java"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "html"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "css"
+    }
+  ]
+}

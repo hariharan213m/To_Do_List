@@ -1,10 +1,8 @@
-
 import { MdDelete } from "react-icons/md";
 
-const Content = ({items,handleCheck,handleDelete}) => {
- 
+const Content = ({ items, handleCheck, handleDelete }) => {
   return (
-    <main>
+    <>
       {items.length ? (
         <ul>
           {items.map((item) => (
@@ -27,7 +25,7 @@ const Content = ({items,handleCheck,handleDelete}) => {
       ) : (
         <p style={{ marginTop: "13rem" }}>Your list is empty</p>
       )}
-    </main>
+    </>
   );
 };
 
